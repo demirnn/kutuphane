@@ -1,12 +1,14 @@
-Site sol alttaki whatsapp butonu açılır pencereli
+<!-- Site sol alttaki whatsapp butonu açılır pencereli
 
 
-index.php sayfasında footer alanının içine aşşağıda vermiş olduğum kod yapıştırılacak alanları kendinize göre revize edebilirsiniz.
+index.php sayfasında footer alanının içine aşşağıda vermiş olduğum kod yapıştırılacak alanları kendinize göre revize edebilirsiniz. -->
+	
+
 
 	<script>
-var url = 'DOSYA YOLU/ DİĞER EKTEKİ DOSYA-> / shopifyWidget.js';
-var s = document.createElement('script');
-s.type = 'text/javascript';
+		var url = 'DOSYA YOLU/ DİĞER EKTEKİ DOSYA-> / shopifyWidget.js';
+		var s = document.createElement('script');
+		s.type = 'text/javascript';
 s.async = true;
 s.src = url;
 var options = {
@@ -31,11 +33,11 @@ var options = {
 "borderRadius":"25",
 "autoShow":false,
 "phoneNumber":"+908502410227"
-}
-};
-s.onload = function() {
-CreateWhatsappChatWidget(options);
-};
-var x = document.getElementsByTagName('script')[0];
-x.parentNode.insertBefore(s, x);
-</script>
+	}
+			};
+		s.onload = function() {
+			CreateWhatsappChatWidget(options);
+			};
+		var x = document.getElementsByTagName('script')[0];
+		x.parentNode.insertBefore(s, x);
+	</script>
