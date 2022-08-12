@@ -6,7 +6,7 @@ index.php sayfasında footer alanının içine aşşağıda vermiş olduğum kod
 
 
 	<script>
-		var url = 'DOSYA YOLU/ DİĞER EKTEKİ DOSYA-> / shopifyWidget.js';
+		var url = 'DOSYA YOLU/ DİĞER EKTEKİ DOSYA-> / whatsappwidgets.js';
 		var s = document.createElement('script');
 		s.type = 'text/javascript';
 s.async = true;
